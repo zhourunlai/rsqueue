@@ -1,0 +1,13 @@
+[package]
+name = "rsqueue"
+version = "0.1.0"
+authors = ["zhourunlai <xiaorun95@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/zhourunlai/rstatsd"
+readme = "README.md"
+license = "MIT"
+description = "a redis-backend queue in pure rust"
+keywords = ["queue", "redis", "rust"]
+
+[dependencies]
+redis = "0.10.0"
